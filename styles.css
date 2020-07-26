@@ -1,0 +1,118 @@
+h1, h3{
+  font-family: 'Cinzel', serif;
+  padding: 15px;
+}
+
+.title{
+  font-weight: bold;
+}
+
+.subtitle{
+  color: green;
+  font-size: 1.8rem;
+}
+
+.inputData{
+  width: 30px;
+  height: 30px;
+  background-color: #bbe1fa;
+  border-style: none;
+}
+
+.answerTableData{
+  width:30px;
+  height: 30px;
+  background-color: #bbe1fa;
+  text-align: center;
+}
+
+.blank{
+  background-color:  #ade498;
+  width: 2px;
+}
+
+hr{
+  width:35%;
+  border-style: dotted none none none;
+  border-width: 15px;
+  border-color: #7fdbda;
+}
+
+table{
+  margin: 10px auto 30px;
+  border-collapse: inherit;
+}
+
+
+body{
+  background-color: #ade498;
+  text-align: center;
+}
+
+.answerTable{
+  border-spacing: 4px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+
+.original_numbers{
+  background-color: #848ccf;
+  font-weight: bold;
+}
+
+.credits{
+  margin-top: 100px;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
